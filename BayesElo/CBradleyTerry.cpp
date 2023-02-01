@@ -1,6 +1,6 @@
 /////////////////////////////////////////////////////////////////////////////
 //
-// Rémi Coulom
+// RÃ©mi Coulom
 //
 // December, 2004
 //
@@ -136,7 +136,7 @@ double CBradleyTerry::GetDifference(int n,
 CBradleyTerry::CBradleyTerry(const CCondensedResults &crsInit):
  crs(crsInit),
  velo(crs.GetPlayers()),
- eloAdvantage(32.8),
+//  eloAdvantage(32.8),
  eloDraw(97.3),
  v1(crs.GetPlayers()),
  v2(crs.GetPlayers()),

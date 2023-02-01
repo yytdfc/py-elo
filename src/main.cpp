@@ -2,6 +2,8 @@
 #include "BayesElo/CEloRatingCUI.h"
 #include <sstream>
 #include <pybind11/pybind11.h>
+#include <pybind11/stl.h>
+#include <pybind11/numpy.h>
 
 #define STRINGIFY(x) #x
 #define MACRO_STRINGIFY(x) STRINGIFY(x)
